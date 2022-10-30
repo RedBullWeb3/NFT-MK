@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaKurs Monsters - mint your scary avatar!e</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- main css for template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===============>> Preloader start here <<================= -->
+    <div class="preloader">
+        <img src="assets/images/logo/preloader.png" alt="SuperHero">
+    </div>
+    <!-- ===============>> Preloader end here <<================= -->
+
+
+
+    <!-- ========== Multipage Header Section Starts Here========== -->
+    <header class="header-section">
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu-area">
+                        <ul class="menu">
+                            <li>
+                                <a href="index.html#home">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="index.html#about">About</a>
+                            </li>
+                            <li>
+                                <a href="index.html#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="index.html#faq">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#0">Pages</a>
+                                <ul class="submenu">
+                                    <li><a href="javsascript:void();">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Home 1</a></li>
+                                            <li><a href="index-2.html">Home 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javsascript:void();">About</a>
+                                        <ul class="submenu">
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="roadmap.html">Roadmap</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="team-single.html">Team Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javsascript:void();">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-single.html">Blog single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="collection.html">Collection</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="404.html">404 Error</a></li>
+                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="header-btn">
+                            <a href="#" class="default-btn default-btn--secondary">
+                                <span>Join <i class="fa-brands fa-discord"></i></span>
+                            </a>
+                            <a href="#" class="default-btn" data-bs-toggle="modal" data-bs-target="#wallet-option">
+                                <span>Connect <i class="fa-solid fa-wallet"></i></span>
+                            </a>
+                        </div>
+
+                        <!-- toggle icons -->
+                        <div class="header-bar d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ========== Multipage Header Section Ends Here========== -->
+
+
+
+
+
+    <!-- connect wallet modal start -->
+    <div class="wallet-modal modal fade" id="wallet-option" tabindex="-1" aria-labelledby="choose-wallet"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="choose-wallet">Connect Your Wallet</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Please select a wallet to connect for <br> Start Minting your NFTs</p>
+                    <ul class="wallet__list">
+                        <li class="wallet__list-item"><a href="#"> <span><img src="assets/images/wallet/metamask.jpg"
+                                        alt="metamask">
+                                </span> </a></li>
+                        <li class="wallet__list-item"><a href="#"> <span><img src="assets/images/wallet/coinbase.jpg"
+                                        alt="coinbase">
+                                </span> </a></li>
+                        <li class="wallet__list-item"><a href="#"> <span><img src="assets/images/wallet/bsc.jpg"
+                                        alt="bsc">
+                                </span></a></li>
+                        <li class="wallet__list-item"><a href="#"> <span><img src="assets/images/wallet/trust.jpg"
+                                        alt="Trust Wallet">
+                                </span></a></li>
+                    </ul>
+                    <p>By connecting your wallet, you agree to our Terms of Service and our Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- connect wallet modal end -->
+
+
+
+    <!-- ================> Page header start here <================== -->
+    <section class="page-header bg--cover" style="background-image: url(assets/images/header/bg.jpg);">
+        <div class="container">
+            <div class="page-header__content text-center">
+                <h3 class="text-uppercase">Roadmap</h3>
+                <nav style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Roadmap</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- ================> Page header end here <================== -->
+
+
+
+
+    <!-- ================>Roadmap section start here <================== -->
+    <section class="roadmap roadmap--style1 padding-top padding-bottom" id="roadmap"
+        style="background-image: url(assets/images/roadmap/bg.jpg);">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="subtitle">Roadmap</p>
+                <h2>How it all started</h2>
+            </div>
+            <div class="roadmap__wrapper">
+                <div class="row gy-4 gy-md-0 gx-5">
+                    <div class="col-md-6 offset-md-6">
+                        <div class=" roadmap__item ms-md-4 aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Launched Initialized</h4>
+                                        <p>10%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                            Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                            Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                            Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                            Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                            L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                            L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                            L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class=" roadmap__item ms-auto me-md-4 aos-init" data-aos="fade-right"
+                            data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Physical Merch</h4>
+                                        <p>20%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                    L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                    L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                    L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-6">
+                        <div class="roadmap__item ms-md-4  aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>The Apes Land</h4>
+                                        <p>50%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                    L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                    L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                    L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item ms-auto me-md-4  aos-init" data-aos="fade-right"
+                            data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Bored Apes Game</h4>
+                                        <p>70%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                    L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                    L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                    L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-6">
+                        <div class="roadmap__item ms-md-4  aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Launched Metaverse</h4>
+                                        <p>80%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                    L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                    L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                    L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item ms-auto me-md-4  aos-init" data-aos="fade-right"
+                            data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Upcoming Dapps</h4>
+                                        <p>100%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                    Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                    L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                    L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                    L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Roadmap section end here <================== -->
+
+
+
+
+    <!-- ================>Roadmap section start here <================== -->
+    <section class="roadmap roadmap--style2 padding-top padding-bottom bg--semi-body">
+        <div class="container">
+            <div class="section-header text-center">
+                <p class="subtitle">Roadmap 2</p>
+                <h2>How it all started</h2>
+            </div>
+            <div class="section__wrapper">
+                <div class="row g-4">
+                    <div class="col-md-6 ">
+                        <div class="roadmap__item aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Launch Initialize NFT</h4>
+                                        <p>10%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item aos-init" data-aos="fade-right" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>The Physical Merching</h4>
+                                        <p>20%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                        L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                        L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                        L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>The NFTPort Apes Land</h4>
+                                        <p>50%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                        L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                        L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                        L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item aos-init" data-aos="fade-right" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>The Bored Apes Game</h4>
+                                        <p>70%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                        L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                        L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                        L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item aos-init" data-aos="fade-left" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Launched Metaverse</h4>
+                                        <p>80%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                        L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                        L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                        L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="roadmap__item aos-init" data-aos="fade-right" data-aos-duration="800">
+                            <div class="roadmap__item-inner">
+                                <div class="roadmap__item-content">
+                                    <div class="roadmap__item-header">
+                                        <h4>Upcoming Super Dapps</h4>
+                                        <p>100%</p>
+                                    </div>
+                                    <p>Contrar to popular belief Lorem Ipsum is not simpy random text info has roots
+                                        info a piece of classical Latin literature
+                                        from 4BCS making it over 2000 years old looked upone of the more obscure latin
+                                        word consectetur cites of the word in</p>
+                                </div>
+                            </div>
+                            <span class="svg-shape"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="210px" height="10px">
+                                    <path fill-rule="evenodd" fill-opacity="0.102" d=" M5.000,-0.001 L30.000,-0.001 L25.000,9.999 L-0.000,9.999 L5.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.302" d=" M35.000,-0.001 L60.000,-0.001 L55.000,9.999 L30.000,9.999 L35.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.502" d=" M65.000,-0.001 L90.000,-0.001 L85.000,9.999 L60.000,9.999 L65.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.702" d=" M95.000,-0.001 L120.000,-0.001 L115.000,9.999 L90.000,9.999 L95.000,-0.001
+                                                                        Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.8" d=" M125.000,-0.001 L150.000,-0.001 L145.000,9.999 L120.000,9.999
+                                                                        L125.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" fill-opacity="0.902" d=" M155.000,-0.001 L180.000,-0.001 L175.000,9.999 L150.000,9.999
+                                                                        L155.000,-0.001 Z" />
+                                    <path fill-rule="evenodd" d=" M185.000,-0.001 L210.000,-0.001 L210.000,9.999 L180.000,9.999
+                                                                        L185.000,-0.001 Z" />
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Roadmap section end here <================== -->
+
+
+
+
+
+    <!-- ================>Community section start here <================== -->
+    <section class="community padding-top padding-bottom" style="background-image:url(assets/images/community/bg.jpg)">
+        <div class="container">
+            <div class="comminity__wrapper">
+                <div class="section-header text-center">
+                    <p class="subtitle">Our Community</p>
+                    <h2>Join Our Cumminity and get early access</h2>
+                </div>
+                <div class="btn-group justify-content-center">
+                    <a href="#" class="default-btn default-btn--secondary"><span><i class="fab fa-discord"></i> Join
+                            Discord</span></a>
+                    <a href="#" class="default-btn"> <span><img src="assets/images/opensea.svg" alt="opensea icon"
+                                width="20" height="20"> Join Opensea</span> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================>Community section end here <================== -->
+
+
+
+
+
+    <!-- ================> Footer section start here <================== -->
+    <footer class="footer" style="background-image: url(assets/images/footer/bg.png);">
+        <div class="footer__wrapper padding-top padding-bottom">
+            <div class="container">
+                <div class="footer__content text-center">
+                    <a class="mb-4 d-inline-block" href="index.html"><img src="assets/images/logo/logo.png"
+                            alt="Logo"></a>
+                    <ul class="social justify-content-center">
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-discord"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-twitch"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="text-center py-4">
+                    <p class=" mb-0">© 2022 | All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================> Footer section end here <================== -->
+
+
+
+
+    <!-- vendor plugins -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/purecounter_vanilla.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
